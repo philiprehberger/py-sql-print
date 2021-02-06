@@ -80,6 +80,14 @@ print(format_sql("SELECT id FROM users WHERE active = 1", indent=4))
 | `color` | `bool` | `True` | Whether to apply ANSI color codes (print_sql only). |
 | `file` | `TextIO \| None` | `None` | Output stream. Defaults to sys.stdout (print_sql only). |
 
+
+## Development
+
+```bash
+pip install -e .
+python -m pytest tests/ -v
+```
+
 ## License
 
 MIT
