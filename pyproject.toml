@@ -24,9 +24,10 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/philiprehberger/py-sql-print"
+Homepage = "https://github.com/philiprehberger/py-sql-print#readme"
 Repository = "https://github.com/philiprehberger/py-sql-print"
 Issues = "https://github.com/philiprehberger/py-sql-print/issues"
+Changelog = "https://github.com/philiprehberger/py-sql-print/blob/main/CHANGELOG.md"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/philiprehberger_sql_print"]
