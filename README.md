@@ -2,8 +2,7 @@
 
 [![Tests](https://github.com/philiprehberger/py-sql-print/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/py-sql-print/actions/workflows/publish.yml)
 [![PyPI version](https://img.shields.io/pypi/v/philiprehberger-sql-print.svg)](https://pypi.org/project/philiprehberger-sql-print/)
-[![License](https://img.shields.io/github/license/philiprehberger/py-sql-print)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/py-sql-print)](https://github.com/philiprehberger/py-sql-print/commits/main)
 
 Pretty-print and format SQL queries for debugging.
 
@@ -81,7 +80,6 @@ print(format_sql("SELECT id FROM users WHERE active = 1", indent=4))
 | `color` | `bool` | `True` | Whether to apply ANSI color codes (print_sql only). |
 | `file` | `TextIO \| None` | `None` | Output stream. Defaults to sys.stdout (print_sql only). |
 
-
 ## Development
 
 ```bash
@@ -89,6 +87,24 @@ pip install -e .
 python -m pytest tests/ -v
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/py-sql-print)
+
+🐛 [Report issues](https://github.com/philiprehberger/py-sql-print/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/py-sql-print/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
