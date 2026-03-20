@@ -4,13 +4,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "philiprehberger-sql-print"
-version = "0.1.4"
+version = "0.1.5"
 description = "Pretty-print and format SQL queries for debugging"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"
 authors = [{ name = "Philip Rehberger" }]
-keywords = ["sql", "format", "pretty-print", "debug", "query", "orm"]
+keywords = ["sql", "format", "pretty-print", "debug", "query"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
